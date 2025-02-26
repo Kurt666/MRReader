@@ -14,6 +14,7 @@
 
 namespace {
 
+// For data storage at map & reduce phases
 using mapped = std::vector<std::vector<std::pair<std::string, size_t>>>;
 using reduced = std::vector<std::pair<std::string, size_t>>;
 
